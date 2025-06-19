@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackBot Insights | The Future of Building Management</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="container nav">
+            <a href="#" class="nav-logo">
+                <img src="./assets/logo.png" alt="TrackBot Logo" class="logo-img">
+                <span>Blogs</span>
+            </a>
+            
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">TrackBot Insights</h1>
+            <h2 class="fade-in">Connecting the dots...</h2>
+            <p class="fade-in">Explore our latest articles, case studies, and industry analysis.</p>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <main class="container blog-container fade-in">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="blog-grid">
+            <!-- Blog Card 1: Google Workspace -->
+            <div class="blog-card">
+                <img src="./assets/background.jpg" alt="An operations team collaborating around a computer." class="card-image">
+                <div class="card-content">
+                    <span class="card-tag">Enterprise Solutions</span>
+                    <h3 class="card-title">Streamlining Conference Room Management: How TrackBot Elevates Google Workspace Operations</h3>
+                    <p class="card-excerpt">Discover how our API-first integration with Google Workspace provides unparalleled visibility, remote control, and proactive maintenance for your entire meeting room fleet.</p>
+                    <div class="card-footer">
+                        <span class="card-author">By Sijohn Mathew</span>
+                        <a href="./blog-gws.html" class="card-button">Read More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Card 2: Water Conservation -->
+            <div class="blog-card">
+                 <img src="https://images.unsplash.com/photo-1556948521-97a39e54a5c9?q=80&w=2070&auto=format&fit=crop" alt="Smart water meter" class="card-image">
+                <div class="card-content">
+                    <span class="card-tag">Sustainability</span>
+                    <h3 class="card-title">The Digital Drop: Conserving Water in Commercial Properties with IoT</h3>
+                    <p class="card-excerpt">Learn how TrackBot's smart water management solutions leverage IoT sensors and AI to detect leaks, reduce consumption, and promote sustainability in large-scale facilities.</p>
+                    <div class="card-footer">
+                        <span class="card-author">By Jane Doe</span>
+                        <a href="./blog-water-conserve.html" class="card-button">Read More &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more blog cards here as needed -->
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 TrackBot Inc. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
